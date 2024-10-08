@@ -1,0 +1,5 @@
+alert(`Certo, agora vamos ver o seu IMC`)
+let peso = Number (prompt(`Por favor, me diga seu peso:`))
+let alt =  parseFloat(prompt(`Agora me diga sua altura, por favor`))
+let imc = peso /(alt * alt) 
+alert(`Seu IMC é ${imc.toFixed(2)}`)
