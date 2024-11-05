@@ -14,4 +14,4 @@ let maiorIdade = velhos.filter((idade) => {
     return idade > 25
 })
 
-console.log(`${maiorIdade}`);
+console.log(`${maiorIdade}`); 
